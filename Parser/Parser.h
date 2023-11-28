@@ -4,7 +4,8 @@
 
 #pragma once
 
-#include "Lexer.h"
+#include "../Lexer/Lexer.h"
+#include "../FunctionRegistry/FunctionRegistry.h"
 
 class Parser {
 public:
@@ -14,8 +15,9 @@ public:
 
 private:
     Lexer& lexer;
+    FunctionRegistry functionRegistry;
 
     static int parseNumber(Token& token);
     int parseFunctionCall(Token& token) const;
-    int parseFunctionDef(Token& token) const;
+    int parseFunctionDef(Token& token);
 };

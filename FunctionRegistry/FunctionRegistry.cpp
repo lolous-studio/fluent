@@ -9,7 +9,7 @@ void FunctionRegistry::addFunction(const std::string& functionName, const std::s
 }
 
 std::string FunctionRegistry::getFunctionDefinition(const std::string& functionName) const {
-    auto it = functionDefinitions.find(functionName);
+    const auto it = functionDefinitions.find(functionName);
     if (it != functionDefinitions.end()) {
         return it->second;
     }
