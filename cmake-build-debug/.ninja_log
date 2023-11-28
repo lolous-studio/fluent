@@ -1,0 +1,5 @@
+# ninja log v5
+39	1159	7228900126612755	CMakeFiles/fluent.dir/main.cpp.obj	4e354d7c647dbe5e
+7	1206	7228900127085919	CMakeFiles/fluent.dir/Lexer.cpp.obj	896a1ad413a007bd
+1054	1243	7228900371820335	fluent.exe	aa3788a81b937399
+6	1053	7228900369997009	CMakeFiles/fluent.dir/Parser.cpp.obj	7b201c633ca16fed
