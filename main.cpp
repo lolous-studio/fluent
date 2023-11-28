@@ -8,7 +8,7 @@
 #include "Lexer/Lexer.h"
 
 int main() {
-    const std::string input = "func multiply(a, b){ return a * b };= 1 + multiply(2, 3);";
+    const std::string input = "func multiply(a, b){ return a * b }; 1 + multiply(2, 3);";
     Lexer lexer(input);
     Parser parser(lexer);
 
